@@ -59,23 +59,23 @@ One use case for osquery is its application in threat hunting. Security teams ca
 
 
 ## Snippet Practical Content
-**Tasks: Retrieve Running Processes**
 
-*Description: Write an osquery query to retrieve a list of currently running processes on an endpoint.*
-Expected Output: Process name, process ID, user running the process, CPU and memory usage.
-Task: Identify Listening Network Ports
+1. Retrieve Running Processes
+    - Description: Write an osquery query to retrieve a list of currently running processes on an endpoint.
+    - Expected Output: Process name, process ID, user running the process, CPU and memory usage.
 
-*Description: Develop an osquery query to identify all network ports on an endpoint that are actively listening for incoming connections.*
-Expected Output: Port number, process name associated with the port, and the corresponding protocol (TCP or UDP).
-Task: Monitor File Integrity
+2. Identify Listening Network Ports
+    - Description: Develop an osquery query to identify all network ports on an endpoint that are actively listening for incoming connections.
+    - Expected Output: Port number, process name associated with the port, and the corresponding protocol (TCP or UDP).
 
-*Description: Create an osquery query to monitor changes to critical system files on an endpoint.*
-Expected Output: File path, timestamp of last modification, and any changes made to the file (e.g., additions, deletions, modifications).
-Task: Detect Unauthorized User Accounts
+3. Monitor File Integrity
+    - Description: Create an osquery query to monitor changes to critical system files on an endpoint.
+    - Expected Output: File path, timestamp of last modification, and any changes made to the file (e.g., additions, deletions, modifications).
 
-*Description: Write an osquery query to identify user accounts on an endpoint that have been created without proper authorization.*
-Expected Output: User account name, account creation date, and account type (e.g., local, domain).
-Task: Check Firewall Rules
+4. Detect Unauthorized User Accounts
+    - Description: Write an osquery query to identify user accounts on an endpoint that have been created without proper authorization.
+    - Expected Output: User account name, account creation date, and account type (e.g., local, domain).
 
-*Description: Develop an osquery query to retrieve the configured firewall rules on an endpoint.*
-Expected Output: Rule name, source and destination IP addresses, port(s), and allowed/denied status.
+5. Check Firewall Rules
+    - Description: Develop an osquery query to retrieve the configured firewall rules on an endpoint.
+    - Expected Output: Rule name, source and destination IP addresses, port(s), and allowed/denied status.
